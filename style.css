@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&family=Rancho&display=swap');
+body {
+	font-family: 'Montserrat', sans-serif;
+	background-image: url('./karsten-wurth-7BjhtdogU3A-unsplash.jpg');
+}
+
+.top-div {
+	height: 70vh;
+	background: rgba(240, 248, 255, 0.6);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+h1 {
+	font-family: 'Rancho', cursive;
+	font-size: 7rem;
+	letter-spacing: 4px;
+	color: rgb(219, 219, 219);
+	text-shadow: 3px 3px rgb(94, 94, 94);
+}
