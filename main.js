@@ -42,7 +42,7 @@ const displayWeather = (data) => {
 	let weatherCondition = data.weather[0].main;
 	if (weatherCondition == 'Clear') {
 		document.body.style.backgroundImage =
-			"url('./ritam-baishya-ROVBDer29PQ-unsplash.jpg')";
+			"url('./images/ritam-baishya-ROVBDer29PQ-unsplash.jpg')";
 	} else if (weatherCondition == 'Clouds') {
 		document.body.style.backgroundImage = "url('images/cloud.jpg')";
 	} else if (weatherCondition == 'Haze') {
@@ -55,7 +55,7 @@ const displayWeather = (data) => {
 		document.body.style.backgroundImage = "url('images/thunderstorm.jpg')";
 	} else if (weatherCondition == 'Mist') {
 		document.body.style.backgroundImage =
-			"url('./annie-spratt-7CME6Wlgrdk-unsplash.jpg')";
+			"url('./images/annie-spratt-7CME6Wlgrdk-unsplash.jpg')";
 	}
 };
 const dateFunction = (today) => {
